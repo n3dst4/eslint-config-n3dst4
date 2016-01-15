@@ -1,0 +1,31 @@
+{
+  "name": "@n3dst4/eslint-config-n3dst4",
+  "version": "1.0.0",
+  "description": "My shared ESLint settings",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/n3dst4/eslint-config-n3dst4.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil de Carteret <npm@lumphammer.com>",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-plugin-react": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/n3dst4/eslint-config-n3dst4/issues"
+  },
+  "homepage": "https://github.com/n3dst4/eslint-config-n3dst4",
+  "dependencies": {},
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}
