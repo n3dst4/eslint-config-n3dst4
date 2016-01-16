@@ -5,7 +5,8 @@ module.exports = {
   parser: "babel-eslint",
   env: {
     browser: true,
-    node: true
+    node: true,
+    es6: true
   },
   "rules": {
     "no-multi-spaces": 0,
@@ -19,19 +20,18 @@ module.exports = {
       }
     ],
     "eol-last": 0,
-    "no-trailing-spaces": 0,
-    "space-unary-ops": 0,
+    "no-trailing-spaces": 1,
+    "space-unary-ops": [2, { "words": true, "nonwords": false }],
     "no-underscore-dangle": 0,
-    "curly": 1,
-    "space-infix-ops": 0,
-    "no-empty": 0,
+    curly: [2, "multi-line"],
+    "space-infix-ops": 2,
+    "no-empty": 2,
     "no-debugger": 1,
     "no-use-before-define": [
       2,
       "nofunc"
     ],
-    "comma-spacing": 0,
-    "no-undef": 2,
+    "comma-spacing": 2,
     "no-console": 0,
 
     // replace certain posibly-problematic eslint rules with reimplemented ones
