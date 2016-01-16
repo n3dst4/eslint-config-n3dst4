@@ -32,9 +32,29 @@ module.exports = {
     ],
     "comma-spacing": 0,
     "no-undef": 2,
-    "no-console": 0
+    "no-console": 0,
+
+    // replace certain posibly-problematic eslint rules with reimplemented ones
+    // from eslint-plugin-babel
+    "babel/generator-star-spacing": 1,
+    "babel/new-cap": 1,
+    "babel/array-bracket-spacing": 1,
+    "babel/object-curly-spacing": 1,
+    "babel/object-shorthand": 1,
+    "babel/arrow-parens": 1,
+    "babel/no-await-in-loop": 1,
+
+    // disable the corresponding ones from eslint core
+    "generator-star-spacing": 0,
+    "new-cap": 0,
+    "array-bracket-spacing": 0,
+    "object-curly-spacing": 0,
+    "object-shorthand": 0,
+    "arrow-parens": 0,
+    "no-await-in-loop": 0
   },
   plugins: [
+    "babel"
   ],
   ecmaFeatures: {
   }
