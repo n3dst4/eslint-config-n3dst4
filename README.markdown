@@ -9,7 +9,10 @@ Heyo. This is my ESLint config, meant for ES-current code (Babelified or otherwi
 In the package you want to lint while developing, run
 
 ```bash
-npm install eslint @n3dst4/eslint-config-n3dst4 --save-dev
+npm install eslint babel-eslint eslint-plugin-babel @n3dst4/eslint-config-n3dst4 --save-dev
+
+
+
 ```
 
 Then in your `package.json`, add:
