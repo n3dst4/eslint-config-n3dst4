@@ -1,6 +1,6 @@
 {
   "name": "@n3dst4/eslint-config-n3dst4",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "My personal ESLint settings",
   "main": "index.js",
   "repository": {
