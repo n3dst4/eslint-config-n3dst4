@@ -34,7 +34,7 @@ module.exports = {
     "comma-spacing": 2,
     "no-console": 0,
     // prevents some errors if you like to leave out semicolons
-    "no-unexpected-multiline": 2
+    "no-unexpected-multiline": 2,
 
     // replace certain posibly-problematic eslint rules with reimplemented ones
     // from eslint-plugin-babel
