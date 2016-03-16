@@ -16,7 +16,7 @@ module.exports = {
       2,
       {
         "vars": "all",
-        "args": "after-used"
+        "args": "none" // too annoying for e.g. callbacks with set args
       }
     ],
     "eol-last": 0,
