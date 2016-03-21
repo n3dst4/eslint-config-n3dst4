@@ -3,6 +3,13 @@
 module.exports = {
   extends: "eslint:recommended",
   parser: "babel-eslint",
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
   env: {
     browser: true,
     node: true,
@@ -56,6 +63,4 @@ module.exports = {
   plugins: [
     "babel"
   ],
-  ecmaFeatures: {
-  }
 };
