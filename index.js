@@ -1,7 +1,10 @@
 "use strict";
 
 module.exports = {
-  extends: "eslint:recommended",
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   parser: "babel-eslint",
   "parserOptions": {
       "ecmaVersion": 6,
@@ -61,6 +64,7 @@ module.exports = {
     "no-await-in-loop": 0
   },
   plugins: [
-    "babel"
+    "babel",
+    "react"
   ],
 };
