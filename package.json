@@ -17,8 +17,8 @@
     "eslint-plugin-react": "^3.16.1"
   },
   "peerDependencies": {
-    "eslint": "*",
-    "eslint-plugin-react": "*"
+    "eslint": "^3",
+    "eslint-plugin-react": "^3"
   },
   "bugs": {
     "url": "https://github.com/n3dst4/eslint-config-n3dst4/issues"
