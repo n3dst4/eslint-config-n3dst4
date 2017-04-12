@@ -12,12 +12,13 @@
   },
   "author": "Neil de Carteret <npm@lumphammer.com>",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^3.16.1"
+  },
   "peerDependencies": {
-    "eslint": ">=2.0.0",
-    "babel-eslint": ">=4.0.0",
-    "eslint-plugin-babel": ">=3.0.0",
-    "eslint-plugin-react": ">=5.1.1"
+    "eslint": "*",
+    "eslint-plugin-react": "*"
   },
   "bugs": {
     "url": "https://github.com/n3dst4/eslint-config-n3dst4/issues"
