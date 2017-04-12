@@ -34,17 +34,6 @@ module.exports = {
     "no-console": 0,
     // prevents some errors if you like to leave out semicolons
     "no-unexpected-multiline": 2,
-
-    // replace certain posibly-problematic eslint rules with reimplemented ones
-    // from eslint-plugin-babel
-    "babel/generator-star-spacing": 1,
-    "babel/new-cap": 0,
-    "babel/object-curly-spacing": 0,
-    "babel/object-shorthand": 1,
-    "babel/arrow-parens": 0,
-    "babel/no-await-in-loop": 1,
-
-
     // disable the corresponding ones from eslint core
     "generator-star-spacing": 0,
     "new-cap": 0,
@@ -54,7 +43,6 @@ module.exports = {
     "no-await-in-loop": 0
   },
   plugins: [
-    "babel",
     "react"
   ],
   "parserOptions": {
