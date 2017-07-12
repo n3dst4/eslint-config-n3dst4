@@ -1,11 +1,11 @@
-"use strict";
+"use strict"
 
 module.exports = {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
-  env: {
-    browser: true,
-    node: true,
-    es6: true
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
   },
   "rules": {
     "no-multi-spaces": 0,
@@ -42,13 +42,14 @@ module.exports = {
     "arrow-parens": 0,
     "no-await-in-loop": 0
   },
-  plugins: [
+  "plugins": [
     "react"
   ],
   "parserOptions": {
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
     }
   }
-};
+}
