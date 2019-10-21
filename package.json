@@ -13,7 +13,7 @@
   "author": "Neil de Carteret <npm@lumphammer.com>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^3.18.0",
+    "eslint": "^6.5.1",
     "eslint-plugin-react": "^3.16.1"
   },
   "peerDependencies": {
